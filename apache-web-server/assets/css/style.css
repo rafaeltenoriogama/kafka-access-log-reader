@@ -1,0 +1,54 @@
+body {
+  background-color: #e7e8c7;
+}
+
+h1 {
+  margin: 50px 0;
+  text-align: center;
+}
+
+#usa {
+  display: inline-block;
+  width: 34px;
+  height: 24px;
+  background-image: url("../imgs/usa-flag.jpg");
+  background-size: cover;
+  margin-left: 5px;
+}
+
+#spain {
+  display: inline-block;
+  width: 34px;
+  height: 24px;
+  background-image: url("../imgs/spain-flag.jpg");
+  background-size: cover;
+  margin-left: 5px;
+}
+
+#french {
+  display: inline-block;
+  width: 34px;
+  height: 24px;
+  background-image: url("../imgs/france-flag.webp");
+  background-size: cover;
+  margin-left: 5px;
+}
+
+#brasil {
+  display: inline-block;
+  width: 34px;
+  height: 24px;
+  background-image: url("../imgs/brasil-flag.png");
+  background-size: cover;
+  margin-left: 5px;
+}
+
+.container-main {
+  border: 1px solid black;
+  margin: 0 auto;
+  height: 570px;
+  width: 1400px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
