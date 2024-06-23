@@ -7,6 +7,5 @@ You can have 3 brokers on same machine or VM, but have in mind that the zookeepe
 Anyway, supposed that you are in kafka/bin directory, let's make a topic with default replication:
 
 ```bash
-./kafka-topic.sh --bootstrap-server 127.0.0.1:9092 --topc apachelog --create --partitions 3 --replication-factor 1
-´´´
+./kafka-topics.sh --bootstrap-server 127.0.0.1:9092 --topc apachelog --create --partitions 3 --replication-factor 1
 ```
