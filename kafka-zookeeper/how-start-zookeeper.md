@@ -11,3 +11,5 @@ So, once on the _bin_ folder of kafka, the command on CLI will be look like this
 ```bash
 ./zookeeper-server-start.sh ../config/zookeeper.properties
 ```
+
+You can overwrite the files on original **bin** and **config** folder of kafka.
