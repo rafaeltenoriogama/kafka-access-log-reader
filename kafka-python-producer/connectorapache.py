@@ -12,7 +12,7 @@ while 1:
     if not log_line:
         time.sleep(5)
     else:
-        x = reg.match(regexp, log_line).groups()
+        x = re.match(regexp, log_line).groups()
         msg = bytes(str(x), encoding="acii")
         my_producer.send("apachelog", msg)
         print("Message was sent on: ", datetime.datetime.now())
