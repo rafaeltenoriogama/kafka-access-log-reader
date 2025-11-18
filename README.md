@@ -14,10 +14,7 @@ A simple kafka project using apache web server to read access logs using regex o
 
 Make a application using regex and python to read a log file, then storage the important data in MySQL/MariaDB database for distributed analysis, such as marketing, sales or support team.
 
-![Log files example](./apache-web-server/assets/imgs/log-display.png)
-Above we can see a example of a log file and how many data can be extract from there, such as datetime, ip address, geolocation and more.
-
-This is why is important have a project to analysis that data for the teams of a company, startup or personal project.
+Use this repository to populate Kafka topics with extracted log data including geolocation, IP addresses, timestamps, user agents, and more. The data can then be consumed and stored in a database for further analysis.
 
 ### Quickstart
 
